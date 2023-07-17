@@ -1,0 +1,9 @@
+
+#Client-only settings
+[client]
+	#List of items which you wanna glow up
+	itemList = ""
+	#Color of glowing
+	#Range: 0 ~ 16777215
+	glowingColor = 16777215
+
