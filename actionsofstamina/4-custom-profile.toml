@@ -1,20 +1,20 @@
 
 [Attacking]
 	#Using stamina for attacking
-	enableForAttacking = true
-	#Defines how many feathers (value 1 is equals to half a feather) the players will loose for attacking
+	enableForAttacking = false
+	#Defines how many feathers (value 1 is equals to half a feather) the players will lose for attacking
 	#Range: 1 ~ 20
-	costsForAttacking = 1
+	costsForAttacking = 0
 	#Defines how many remaining feathers (value 1 is equals to half a feather) the player must have for attacking
 	#Range: 0 ~ 20
-	minimumForAttacking = 4
+	minimumForAttacking = 0
 	#Decrease feathers bar value by the defined costs after attacking for X times
 	#Range: 1 ~ 10
-	ExhaustAfterAttackingFor = 2
+	ExhaustAfterAttackingFor = 20
 	#Using stamina for attacking only when hitting entities
-	onlyForHits = false
+	onlyForHits = true
 	#Using stamina for attacking for any items in the main hand (even without any)
-	alsoForNonWeapons = false
+	alsoForNonWeapons = true
 	#Determines how much additional stamina is spent when attacking entities with weapons depending on the attack weapons attack damage
 	#Range: 0.0 ~ 1.0
 	attackDamageMultiplier = 0.2
@@ -24,18 +24,18 @@
 	enableForSprinting = true
 	#Defines how many feathers (value 1 is equals to half a feather) the players will loose for sprinting
 	#Range: 1 ~ 20
-	costsForSprinting = 1
+	costsForSprinting = 0
 	#Defines how many remaining feathers (value 1 is equals to half a feather) the player must have for sprinting
 	#Range: 0 ~ 20
-	minimumForSprinting = 3
+	minimumForSprinting = 0
 	#Defines how many feathers (value 1 is equals to half a feather) the players will loose for starting  sprinting
 	#Range: 0 ~ 10
-	initialCostsForSprinting = 1
+	initialCostsForSprinting = 0
 	#Defines whether sprinting should stop the regeneration of feathers
 	stopRegenerationWhileSprinting = true
 	#Decrease feathers bar value by the defined costs after sprinting for X ticks
 	#Range: 1 ~ 1200
-	ExhaustAfterSprintingFor = 50
+	ExhaustAfterSprintingFor = 0
 
 [Flying]
 	#Using stamina for flying (for Elytra and Golden Ring)
@@ -111,7 +111,7 @@
 
 [Jumping]
 	#Using stamina for jumping
-	enableForJumping = true
+	enableForJumping = false
 	#Defines how many feathers (value 1 is equals to half a feather) the players will loose for jumping
 	#Range: 1 ~ 20
 	costsForJumping = 1
@@ -138,7 +138,7 @@
 	stopRegenerationWhileHoldingTheShield = true
 	#Decrease feathers bar value by the defined costs after holding the shield for X ticks
 	#Range: 1 ~ 1200
-	ExhaustAfterHoldingTheShieldFor = 20
+	ExhaustAfterHoldingTheShieldFor = 0
 
 [WallJumping]
 	#Using stamina for wall jumping
@@ -148,7 +148,7 @@
 	costsForWallJumping = 1
 	#Defines how many remaining feathers (value 1 is equals to half a feather) the player must have for wall jumping
 	#Range: 0 ~ 20
-	minimumForWallJumping = 4
+	minimumForWallJumping = 0
 	#Decrease feathers bar value by the defined costs after wall jumping for X times
 	#Range: 1 ~ 10
 	ExhaustAfterWallJumpingFor = 1

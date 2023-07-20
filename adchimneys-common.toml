@@ -19,9 +19,9 @@
 
 [Paint]
 	#Whether a bucket of water is required to be in the player's inventory in order to paint
-	requiresWaterBucket = true
+	requiresWaterBucket = false
 	#Whether a dye is required to be in the player's inventory in order to paint
-	requiresDye = true
+	requiresDye = false
 
 [Pipe]
 	#Number of pipes that can be placed(when holding pipe items in both hands) / broken(when crouching) at once

@@ -1,7 +1,7 @@
 
 [general]
 	block_growths = true
-	creative_tab = false
+	creative_tab = true
 	grass_over_mycelium = true
 	mycelium_over_grass = true
 
@@ -46,21 +46,21 @@
 	flammable_cobweb = true
 
 [generation]
-	cryosol_feature = true
-	humus_feature = true
-	fluvisol_feature = true
-	silt_feature = true
-	vertisol_feature = true
-	lakebed_feature = true
-	icicle_feature = true
-	roots_feature = true
+	cryosol_feature = false
+	humus_feature = false
+	fluvisol_feature = false
+	silt_feature = false
+	vertisol_feature = false
+	lakebed_feature = false
+	icicle_feature = false
+	roots_feature = false
 
 [item_interaction]
 	cauldron_washing = false
 	pickaxe_cracking = true
 	pickaxe_cracking_shift = false
 	brick_breaking = true
-	piston_sliming = true
+	piston_sliming = false
 	soil_shearing = true
 	grass_flinting = true
 	azalea_shearing = true
@@ -78,13 +78,13 @@
 	drop_in_creative = false
 
 [food]
-	icicle_food = true
-	icicle_fire_resistance = true
+	icicle_food = false
+	icicle_fire_resistance = false
 	muddy_water_enabled = true
 
 [misc]
-	mulch_grows_crops = true
-	composter_dirt = true
+	mulch_grows_crops = false
+	composter_dirt = false
 	generic_bark = ""
 	feather_falling_farmers = true
 	leggings_prevents_thorn_damage = true
@@ -106,10 +106,10 @@
 	leaf_piles_blacklist = []
 
 [thin_ice]
-	natural_melting = false
+	natural_melting = true
 
 [lightning_growths]
-	vitrified_lightning = true
+	vitrified_lightning = false
 	#Range: 0.0 ~ 1.0
 	fulgurite_chance = 0.4
 
