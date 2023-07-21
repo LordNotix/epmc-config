@@ -7,21 +7,21 @@
 
 [mossy_blocks]
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.3
+	interest_for_face = 0.0
 	#Range: 0.0 ~ 1.0
-	patchiness = 0.5
+	patchiness = 0.0
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
+	immune_chance = 1.0
 	needs_air = true
 
 [cracked_blocks]
 	#Range: 0.0 ~ 1.0
-	interest_for_face = 0.6
+	interest_for_face = 0.0
 	#Range: 0.0 ~ 1.0
-	patchiness = 0.4
+	patchiness = 0.0
 	#Range: 0.0 ~ 1.0
-	immune_chance = 0.4
-	needs_air = false
+	immune_chance = 1.0
+	needs_air = true
 
 [icicle]
 	react_to_vibrations = true
@@ -64,8 +64,8 @@
 	soil_shearing = true
 	grass_flinting = true
 	azalea_shearing = true
-	moss_shearing = true
-	moss_burning = true
+	moss_shearing = false
+	moss_burning = false
 	charred_block_igniting = true
 	shovel_extinguish = true
 	sponge_rusting = true

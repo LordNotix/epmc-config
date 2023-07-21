@@ -21,7 +21,7 @@
 
 [Sprinting]
 	#Using stamina for sprinting
-	enableForSprinting = true
+	enableForSprinting = false
 	#Defines how many feathers (value 1 is equals to half a feather) the players will loose for sprinting
 	#Range: 1 ~ 20
 	costsForSprinting = 0

@@ -18,7 +18,9 @@
   "tickCulling": true,
   "tickCullingWhitelist": [
     "minecraft:boat",
-    "minecraft:firework_rocket"
+    "minecraft:firework_rocket",
+    "tfships:galley",
+    "tfships:cog"
   ],
   "disableF3": false
 }
