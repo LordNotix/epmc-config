@@ -13,5 +13,5 @@
 	#How far left or right you want the feathers to be
 	"HUD X Offset" = 0
 	#How far up or down you want the feathers to be. TIP: use this for compatibility with mods that add other bars such as thirst
-	"HUD Y Offset" = 0
+	"HUD Y Offset" = -16
 
