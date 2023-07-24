@@ -25,7 +25,8 @@
 	[carts.supply_cart]
 		#Animals that are able to pull this cart, such as ["minecraft:horse"]
 		#An empty list defaults to all which may wear a saddle but not steered by an item
-		pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		#pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		pull_animals = []
 		#Slow speed modifier toggled by the sprint key
 		#Range: -1.0 ~ 0.0
 		slow_speed = -0.65
@@ -37,7 +38,8 @@
 	[carts.animal_cart]
 		#Animals that are able to pull this cart, such as ["minecraft:horse"]
 		#An empty list defaults to all which may wear a saddle but not steered by an item
-		pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		#pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		pull_animals = []
 		#Slow speed modifier toggled by the sprint key
 		#Range: -1.0 ~ 0.0
 		slow_speed = -0.65
@@ -49,7 +51,8 @@
 	[carts.plow]
 		#Animals that are able to pull this cart, such as ["minecraft:horse"]
 		#An empty list defaults to all which may wear a saddle but not steered by an item
-		pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		#pull_animals = ["tfc:alpaca", "tfc:yak", "tfc:musk_ox", "tfc:cow", "tfc:horse", "tfc:mule", "tfc:donkey", "minecraft:player"]
+		pull_animals = []
 		#Slow speed modifier toggled by the sprint key
 		#Range: -1.0 ~ 0.0
 		slow_speed = -0.65
